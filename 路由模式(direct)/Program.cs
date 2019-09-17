@@ -1,10 +1,9 @@
-﻿
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Text;
 
-namespace 订阅模式_fanout_
+namespace 路由模式_direct_
 {
     class Program
     {
@@ -24,12 +23,12 @@ namespace 订阅模式_fanout_
                 {
                     //交换机名称
                     String exchangeName = String.Empty;
-                    exchangeName = "test-exchangequeue";
+                    exchangeName = "test-exchange-direct";
                     //声明交换机
-                    channel.ExchangeDeclare(exchange: exchangeName, type: "fanout");
+                    channel.ExchangeDeclare(exchange: exchangeName, type: "direct");
                     //队列名称
                     String queueName = String.Empty;
-                    queueName = exchangeName+"queue";
+                    queueName = exchangeName + "queue";
                     //声明一个队列
                     channel.QueueDeclare(
                       queue: queueName,//消息队列名称
@@ -46,7 +45,7 @@ namespace 订阅模式_fanout_
                     var consumer = new EventingBasicConsumer(channel);
                     consumer.Received += (model, ea) =>
                     {
-                      //  Thread.Sleep(1000);//等待1秒,
+                        //  Thread.Sleep(1000);//等待1秒,
                         byte[] message = ea.Body;//接收到的消息
                         Console.WriteLine("接收到信息为:" + Encoding.UTF8.GetString(message));
                         //返回消息确认

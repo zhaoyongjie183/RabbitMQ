@@ -1,9 +1,8 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
-using System.Text;
 
-namespace RabbitRecvMQProject
+namespace 简单队列
 {
     class Program
     {

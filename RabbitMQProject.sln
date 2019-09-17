@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQProject", "RabbitMQProject\RabbitMQProject.csproj", "{B4D4F62A-4BA9-489B-B471-2E37609109FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "公平分发1", "公平分发\公平分发1.csproj", "{35C4FCDE-CF2C-4BBC-836D-D0C728AC9E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单消息队列", "RabbitRecvMQProject\简单消息队列.csproj", "{9E31E75A-17DC-42B2-97C0-CCBF2FB39182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "订阅模式(fanout)", "订阅模式(fanout)\订阅模式(fanout).csproj", "{CD51A3B3-87E2-49C0-BFA3-C63D9628F87C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "公平分发1", "公平分发\公平分发1.csproj", "{35C4FCDE-CF2C-4BBC-836D-D0C728AC9E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "路由模式(direct)", "路由模式(direct)\路由模式(direct).csproj", "{AA1AB77C-178E-4990-B134-4E2B08EEFF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "订阅模式(fanout)", "订阅模式(fanout)\订阅模式(fanout).csproj", "{CD51A3B3-87E2-49C0-BFA3-C63D9628F87C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "发送消息中心", "发送消息中心\发送消息中心.csproj", "{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单队列", "简单队列\简单队列.csproj", "{A703B837-863E-42C6-A209-573EBB9FE360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4D4F62A-4BA9-489B-B471-2E37609109FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4D4F62A-4BA9-489B-B471-2E37609109FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4D4F62A-4BA9-489B-B471-2E37609109FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4D4F62A-4BA9-489B-B471-2E37609109FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E31E75A-17DC-42B2-97C0-CCBF2FB39182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E31E75A-17DC-42B2-97C0-CCBF2FB39182}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E31E75A-17DC-42B2-97C0-CCBF2FB39182}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E31E75A-17DC-42B2-97C0-CCBF2FB39182}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35C4FCDE-CF2C-4BBC-836D-D0C728AC9E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35C4FCDE-CF2C-4BBC-836D-D0C728AC9E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C4FCDE-CF2C-4BBC-836D-D0C728AC9E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +27,18 @@ Global
 		{CD51A3B3-87E2-49C0-BFA3-C63D9628F87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD51A3B3-87E2-49C0-BFA3-C63D9628F87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD51A3B3-87E2-49C0-BFA3-C63D9628F87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1AB77C-178E-4990-B134-4E2B08EEFF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1AB77C-178E-4990-B134-4E2B08EEFF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1AB77C-178E-4990-B134-4E2B08EEFF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1AB77C-178E-4990-B134-4E2B08EEFF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A703B837-863E-42C6-A209-573EBB9FE360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A703B837-863E-42C6-A209-573EBB9FE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A703B837-863E-42C6-A209-573EBB9FE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A703B837-863E-42C6-A209-573EBB9FE360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
