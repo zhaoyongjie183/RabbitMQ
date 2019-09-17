@@ -1,8 +1,4 @@
-﻿using RabbitMQ.Client;
-using System;
-using System.Text;
-
-namespace RabbitMQProject
+﻿namespace 发送消息中心
 {
     class Program
     {
@@ -13,9 +9,14 @@ namespace RabbitMQProject
 
             //gong.Send();
 
-            订阅模式 ding = new 订阅模式();
+            //订阅模式 ding = new 订阅模式();
 
-            ding.Send();
+            //ding.Send();
+
+            路由模式 lu = new 路由模式();
+
+            lu.Send();
+            
         }
     }
 }

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RabbitMQProject
+namespace 发送消息中心
 {
     /// <summary>	
     /// 描述：
