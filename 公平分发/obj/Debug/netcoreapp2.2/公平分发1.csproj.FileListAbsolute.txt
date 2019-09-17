@@ -1,0 +1,11 @@
+E:\Test\RabbitMQProject\公平分发\bin\Debug\netcoreapp2.2\公平分发1.deps.json
+E:\Test\RabbitMQProject\公平分发\bin\Debug\netcoreapp2.2\公平分发1.runtimeconfig.json
+E:\Test\RabbitMQProject\公平分发\bin\Debug\netcoreapp2.2\公平分发1.runtimeconfig.dev.json
+E:\Test\RabbitMQProject\公平分发\bin\Debug\netcoreapp2.2\公平分发1.dll
+E:\Test\RabbitMQProject\公平分发\bin\Debug\netcoreapp2.2\公平分发1.pdb
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.csprojAssemblyReference.cache
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.csproj.CoreCompileInputs.cache
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.AssemblyInfoInputs.cache
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.AssemblyInfo.cs
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.dll
+E:\Test\RabbitMQProject\公平分发\obj\Debug\netcoreapp2.2\公平分发1.pdb

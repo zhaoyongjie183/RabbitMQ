@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "822627402b5b36fab57684cc2cf30ddb2019227a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "公平分发1/1.0.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "5.1.1"
+        },
+        "runtime": {
+          "公平分发1.dll": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "公平分发1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQ.Client/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ApUZXLujbNGDceSQGv3b1FkoFeUwuWR9PTkw0Iwsd5ivzcjCMegq6zIFPXDEFjEoMgUOHuNWjNnFpmFl5HQ50Q==",
+      "path": "rabbitmq.client/5.1.1",
+      "hashPath": "rabbitmq.client.5.1.1.nupkg.sha512"
+    }
+  }
+}

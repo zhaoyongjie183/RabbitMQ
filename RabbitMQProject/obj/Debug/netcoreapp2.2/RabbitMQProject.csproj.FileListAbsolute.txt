@@ -1,0 +1,10 @@
+E:\Test\RabbitMQProject\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.csproj.CoreCompileInputs.cache
+E:\Test\RabbitMQProject\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfoInputs.cache
+E:\Test\RabbitMQProject\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfo.cs
+E:\Test\RabbitMQProject\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.deps.json
+E:\Test\RabbitMQProject\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.runtimeconfig.json
+E:\Test\RabbitMQProject\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.runtimeconfig.dev.json
+E:\Test\RabbitMQProject\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.dll
+E:\Test\RabbitMQProject\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.pdb
+E:\Test\RabbitMQProject\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.dll
+E:\Test\RabbitMQProject\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.pdb

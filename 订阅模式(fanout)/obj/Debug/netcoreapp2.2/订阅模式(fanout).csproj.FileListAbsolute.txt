@@ -1,0 +1,11 @@
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).csprojAssemblyReference.cache
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).csproj.CoreCompileInputs.cache
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).AssemblyInfoInputs.cache
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).AssemblyInfo.cs
+E:\Test\RabbitMQProject\订阅模式(fanout)\bin\Debug\netcoreapp2.2\订阅模式(fanout).deps.json
+E:\Test\RabbitMQProject\订阅模式(fanout)\bin\Debug\netcoreapp2.2\订阅模式(fanout).runtimeconfig.json
+E:\Test\RabbitMQProject\订阅模式(fanout)\bin\Debug\netcoreapp2.2\订阅模式(fanout).runtimeconfig.dev.json
+E:\Test\RabbitMQProject\订阅模式(fanout)\bin\Debug\netcoreapp2.2\订阅模式(fanout).dll
+E:\Test\RabbitMQProject\订阅模式(fanout)\bin\Debug\netcoreapp2.2\订阅模式(fanout).pdb
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).dll
+E:\Test\RabbitMQProject\订阅模式(fanout)\obj\Debug\netcoreapp2.2\订阅模式(fanout).pdb

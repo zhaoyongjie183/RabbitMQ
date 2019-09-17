@@ -1,0 +1,11 @@
+E:\Test\RabbitMQProject\RabbitRecvMQProject\bin\Debug\netcoreapp2.2\简单消息队列.deps.json
+E:\Test\RabbitMQProject\RabbitRecvMQProject\bin\Debug\netcoreapp2.2\简单消息队列.runtimeconfig.json
+E:\Test\RabbitMQProject\RabbitRecvMQProject\bin\Debug\netcoreapp2.2\简单消息队列.runtimeconfig.dev.json
+E:\Test\RabbitMQProject\RabbitRecvMQProject\bin\Debug\netcoreapp2.2\简单消息队列.dll
+E:\Test\RabbitMQProject\RabbitRecvMQProject\bin\Debug\netcoreapp2.2\简单消息队列.pdb
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.csprojAssemblyReference.cache
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.csproj.CoreCompileInputs.cache
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.AssemblyInfoInputs.cache
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.AssemblyInfo.cs
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.dll
+E:\Test\RabbitMQProject\RabbitRecvMQProject\obj\Debug\netcoreapp2.2\简单消息队列.pdb
