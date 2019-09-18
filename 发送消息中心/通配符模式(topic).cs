@@ -6,15 +6,16 @@ using System.Text;
 namespace 发送消息中心
 {
     /// <summary>	
-    /// 描述：
-    ///    P----------------
-    /// 
-    /// 路由模式是订阅模式的一个变种模式，以路由进行匹配发送，
-    /// 例如将消息1发送给A,B两个消息队列，或者将消息2发送给B,C两个消息队列，路由模式的交换机是direct
+    /// 描述：topic模式 将路由键和某个模式匹配
+    /// 　#：匹配0-n个字符语句
+    ///   *：匹配一个字符语句
+    ///   　注意：RabbitMQ中通配符并不像正则中的单个字符，而是一个以“.”分割的字符串，
+    ///   　如 ”topic1.*“匹配的规则以topic1开始并且"."后只有一段语句的路由  例：“topic1.aaa”，“topic1.bb”
+    ///   　
     /// 创建人： zhaoyongjie
-    /// 创建时间：2019/9/17 17:44:22
+    /// 创建时间：2019/9/18 14:45:29
     /// </summary>
-    public class 路由模式
+    public class 通配符模式_topic_
     {
         public void Send()
         {
@@ -33,9 +34,9 @@ namespace 发送消息中心
                     //交换机名称
                     String exchangeName = String.Empty;
 
-                    exchangeName = "test-exchange-direct";
+                    exchangeName = "test-exchange-topic";
                     //声明交换机
-                    channel.ExchangeDeclare(exchange: exchangeName, type: "direct");
+                    channel.ExchangeDeclare(exchange: exchangeName, type: "topic");
                     while (true)
                     {
                         Console.WriteLine("请输入消息内容:");
@@ -43,7 +44,7 @@ namespace 发送消息中心
                         //消息内容
                         byte[] body = Encoding.UTF8.GetBytes(message);
                         //发送消息 定义路由routing-key
-                        channel.BasicPublish(exchange: exchangeName, routingKey: "test-info", basicProperties: null, body: body);
+                        channel.BasicPublish(exchange: exchangeName, routingKey: "test.add", basicProperties: null, body: body);
                         Console.WriteLine("成功发送消息:" + message);
                     }
                 }

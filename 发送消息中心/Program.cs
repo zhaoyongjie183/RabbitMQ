@@ -13,9 +13,13 @@
 
             //ding.Send();
 
-            路由模式 lu = new 路由模式();
+            //路由模式 lu = new 路由模式();
 
-            lu.Send();
+            //lu.Send();
+
+            通配符模式_topic_ tong = new 通配符模式_topic_();
+
+            tong.Send();
             
         }
     }

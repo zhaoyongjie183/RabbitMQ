@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "路由模式(direct)", "路
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "发送消息中心", "发送消息中心\发送消息中心.csproj", "{B2CBAD06-8EC0-40E5-87A3-BFBA0E219A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单队列", "简单队列\简单队列.csproj", "{A703B837-863E-42C6-A209-573EBB9FE360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "简单队列", "简单队列\简单队列.csproj", "{A703B837-863E-42C6-A209-573EBB9FE360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "通配符模式(topic)", "通配符模式(topic)\通配符模式(topic).csproj", "{59454275-913C-4E14-9723-42769A9518FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A703B837-863E-42C6-A209-573EBB9FE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A703B837-863E-42C6-A209-573EBB9FE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A703B837-863E-42C6-A209-573EBB9FE360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59454275-913C-4E14-9723-42769A9518FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59454275-913C-4E14-9723-42769A9518FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59454275-913C-4E14-9723-42769A9518FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59454275-913C-4E14-9723-42769A9518FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

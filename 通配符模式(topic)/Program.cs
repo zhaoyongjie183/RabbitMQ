@@ -3,7 +3,7 @@ using RabbitMQ.Client.Events;
 using System;
 using System.Text;
 
-namespace 路由模式_direct_
+namespace 通配符模式_topic_
 {
     class Program
     {
@@ -23,9 +23,9 @@ namespace 路由模式_direct_
                 {
                     //交换机名称
                     String exchangeName = String.Empty;
-                    exchangeName = "test-exchange-direct";
+                    exchangeName = "test-exchange-topic";
                     //声明交换机
-                    channel.ExchangeDeclare(exchange: exchangeName, type: "direct");
+                    channel.ExchangeDeclare(exchange: exchangeName, type: "topic");
                     //队列名称
                     String queueName = String.Empty;
                     queueName = exchangeName + "queue";
@@ -40,7 +40,7 @@ namespace 路由模式_direct_
                     //声明为手动确认
                     channel.BasicQos(0, 1, false);
                     //将队列与交换机进行绑定 routing-key与发送消息的key一致
-                    channel.QueueBind(queue: queueName, exchange: exchangeName, routingKey: "test-info");
+                    channel.QueueBind(queue: queueName, exchange: exchangeName, routingKey: "test.*");
                     //创建消费者对象
                     var consumer = new EventingBasicConsumer(channel);
                     consumer.Received += (model, ea) =>
