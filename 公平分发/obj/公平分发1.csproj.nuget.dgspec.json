@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Test\\RabbitMQProject\\公平分发\\公平分发1.csproj": {}
+    "E:\\github\\RabbitMQ\\公平分发\\公平分发1.csproj": {}
   },
   "projects": {
-    "E:\\Test\\RabbitMQProject\\公平分发\\公平分发1.csproj": {
+    "E:\\github\\RabbitMQ\\公平分发\\公平分发1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Test\\RabbitMQProject\\公平分发\\公平分发1.csproj",
+        "projectUniqueName": "E:\\github\\RabbitMQ\\公平分发\\公平分发1.csproj",
         "projectName": "公平分发1",
-        "projectPath": "E:\\Test\\RabbitMQProject\\公平分发\\公平分发1.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Test\\RabbitMQProject\\公平分发\\obj\\",
+        "projectPath": "E:\\github\\RabbitMQ\\公平分发\\公平分发1.csproj",
+        "packagesPath": "C:\\Users\\89372\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\RabbitMQ\\公平分发\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\89372\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.200.135:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,10 +54,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

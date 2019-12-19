@@ -24,12 +24,17 @@ namespace 订阅模式_fanout_
                 {
                     //交换机名称
                     String exchangeName = String.Empty;
-                    exchangeName = "test-exchangequeue";
+
+                    exchangeName = "test-exchange-fanout";
+
                     //声明交换机
                     channel.ExchangeDeclare(exchange: exchangeName, type: "fanout");
+
                     //队列名称
                     String queueName = String.Empty;
-                    queueName = exchangeName+"queue";
+
+                    queueName = exchangeName+"-queue";
+
                     //声明一个队列
                     channel.QueueDeclare(
                       queue: queueName,//消息队列名称
@@ -38,12 +43,16 @@ namespace 订阅模式_fanout_
                       autoDelete: false,
                       arguments: null
                        );
+
                     //声明为手动确认
                     channel.BasicQos(0, 1, false);
+
                     //将队列与交换机进行绑定
                     channel.QueueBind(queue: queueName, exchange: exchangeName, routingKey: "");
+
                     //创建消费者对象
                     var consumer = new EventingBasicConsumer(channel);
+
                     consumer.Received += (model, ea) =>
                     {
                       //  Thread.Sleep(1000);//等待1秒,
